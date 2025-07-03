@@ -1,59 +1,91 @@
-# NEVLYMoney
+# 💸 Nevly Money – Responsive Financial Services Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+**Nevly Money** is a fully responsive financial services website built using **Angular**, **Bootstrap**, and **TypeScript**. Designed with modern UI/UX principles, the site offers a seamless experience across devices, promoting Nevly’s mobile app and subscription plans with engaging sections and interactive elements.
 
-## Development server
+---
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+## 🚀 Features Overview
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 🖼️ App Download Popup
+- On initial page load, a **popup modal** appears with:
+  - A **QR code** to download the Nevly app
+  - Option to **get the app link via SMS**
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 🔝 Navbar
+- Responsive, sticky navbar with:
+  - **Nevly Money** title
+  - Navigation tabs:
+    - How Nevly Works
+    - Services
+    - Subscription Plans
+    - FAQs
+    - Login
+    - Join Now
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 📌 Sections Breakdown
 
-```bash
-ng generate --help
-```
+#### ✅ Services Section (Hero)
+- Multiple **service highlight banners** with:
+  - Dynamic card/text layout (centered, left-aligned, right-aligned)
+  - Beautifully styled service overview cards
 
-## Building
+#### 🔁 How Nevly Works
+- **Animated top bar** with scrolling key points (left to right motion)
+- **Four informative cards** outlining the step-by-step process:
+  - Sign Up
+  - Choose Plan
+  - Use Services
+  - Track Progress
 
-To build the project run:
+#### 🛠️ Services Section
+- Hoverable service **cards**
+- On **click**, cards **open a modal popup** with more service details
 
-```bash
-ng build
-```
+#### ⭐ Featured On
+- Section showing where Nevly has been **featured in media or platforms**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+#### 💼 Subscription Plans
+- Three plan cards: `Starter`, `Lite`, and `Core`
+- Includes:
+  - Plan **benefits**
+  - Plan **pricing**
+  - On **hover**, cards change background or color
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 📥 Footer
+- Quick links:
+  - **FAQs**
+  - **Contact**
+  - **Product Features**
+  - **Terms & Conditions**
+  - **Privacy & Security**
+- Footer modals open on click (not redirect)
+- Download app buttons: **App Store**, **Google Play**
+- Social media icons (Facebook, Twitter, LinkedIn, etc.)
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+### 🔐 Login & Registration
+- Modern login page with multiple options:
+  - Login via **Phone Number**, **Email**, **Google**, or **Apple**
+- User registration page with necessary fields
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🧑‍💻 Tech Stack
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+| Technology    | Description                             |
+|---------------|-----------------------------------------|
+| **Angular**   | SPA structure with routing and modules  |
+| **Bootstrap** | Layout, responsiveness, UI components   |
+| **TypeScript**| Strong typing and modular components    |
+| **RxJS**      | Reactive forms and modal logic (if used) |
+| **Responsive Design** | Optimized for mobile, tablet, desktop |
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
